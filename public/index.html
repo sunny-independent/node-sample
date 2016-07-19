@@ -1,0 +1,21 @@
+<html>
+
+<body>
+    Hello server !
+    <p>
+        <div>Downlaods from shared location</div>
+        <form method="get" action="sample.json">
+            <button type="submit">Download Json!</button>
+        </form>
+        <form method="get" action="sample.xls">
+            <button type="submit">Download xls!</button>
+        </form>
+    </p>
+    <p>
+        <div>Download from a service</div>
+        <div><a href="http://localhost:8081/downloadfile?name=sample.json">Json file</a></div>
+        <div><a href="sample.xls">Xls file</a></div>
+    </p>
+</body>
+
+</html>

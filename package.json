@@ -1,0 +1,14 @@
+{
+  "name": "node-sample",
+  "version": "1.0.0",
+  "description": "static server plus a download service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bibin sunny",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
